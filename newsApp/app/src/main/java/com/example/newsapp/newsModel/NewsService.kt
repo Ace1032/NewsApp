@@ -11,7 +11,7 @@ import retrofit2.http.Query
 
 object  NewsService {
     private const val BASE_URL = "https://newsdata.io/api/1/"
-    private const val API_KEY = "pub_43543540bc94b792a64e0aa9feec878441a4d"
+    private const val API_KEY = "APIkEY"
 
     private val retrofit= Retrofit.Builder()
         .baseUrl(BASE_URL)
